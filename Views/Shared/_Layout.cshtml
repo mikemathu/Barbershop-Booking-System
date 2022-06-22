@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"]  </title>
+	<script src="~/lib/jquery/dist/jquery.js"></script> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="~/lib/jquery/dist/menu_jquery.js"></script>
+
+	<link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet"  href="~/css/table.css"  asp-append-version="true"/>
+</head>
+<body>
+	<div class="header">
+		<div class="header_top">
+			<div class="wrap">
+			 <div class="logo">
+				<!-- <a href="index.html"><img src="images/New/Adjusted/Thelogo7.png" /></a> -->
+				<a href="index.html"><img src="images/New/Adjusted/Thelogo7.png" alt="" style="float:left; margin-left:100px;" /></a>
+			</div>
+			<div class="call">
+			    <p><img src="images/45.png" alt="" />Call US: 0711-222-333</p>
+			</div>			  			 
+			<div class="clear"></div>
+  		</div>
+  	  </div>
+		<div class="header_bottom">
+			<div class="wrap">
+				<div id='cssmenu'>
+					<ul class="navbar-nav flex-grow-1">
+					   <li><a asp-controller="Home" asp-action="Index"><span>Home</span></a></li>         
+		 
+					   <li><a asp-controller="Home" asp-action="Login"><span>Login</span></a></li>
+	
+					   <li ><a asp-controller="Home" asp-action="Register"><span>Register</span></a></li>
+ 
+					   <li><a asp-controller="Home" asp-action="Services"><span>Services</span></a></li>
+
+					   <li> <a asp-controller="Home" asp-action="About"><span>About Us</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="strip"> </div>
+
+		 <div class="main">
+			<div class="content" style="    padding: 106px 0;">    
+    			 <div class="wrap">          
+    	 			<div>				
+						<div class="grid span_2_of_3">
+							@RenderBody()
+						</div>						
+					 </div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		  </div>
+		<div class="footer-strip"> </div>
+		<div class="footer">
+   			  <div class="wrap">
+   				<div class="footer_grides">
+   	    			<div class="footer_grid1">
+						<h3>Information</h3>
+							<ul>
+								<li><a href="#">About Us</a></li>
+						     	<li><a href="#">Privacy Policy</a></li>
+						     	<li><a href="#">Newsletter</a></li>
+						     	<li><a href="#">Site Map</a></li>						     		
+						   	</ul>							
+					 </div>
+					<div class="footer_grid2">
+						<h3>Get In Touch</h3>
+						<div class="address">
+							<ul>
+						  		<li>Barbershop Management System</li>
+						  		<li>Coastal Region</li>
+						  		<li>Kenya</li>
+						  		<li>www.barbershopmgnt@gmail.com</li>
+						  		<li><span>Telephone :</span> 0711-222-333</li>
+						  		<li><span>Fax :</span> +25478523690</li>
+							</ul>
+						</div>				  
+					</div>
+						<div class="footer_grid3">
+							<h3>Our Company</h3>
+							<div class="f_menu">
+								<ul>
+									<li><a href="#">About your Company</a></li>
+						     		<li><a href="#">Terms &amp; conditions</a></li>
+						     		<li><a href="#">News</a></li>
+						     		<li><a href="#">Team of professionals</a></li>	
+						     		<li><a href="#">Testimonials</a></li>					     		
+						   		</ul>
+							</div>
+						   </div>				
+				  <div class="footer_grid4">
+					<h3>Follow US</h3>
+					<div class="img_list">
+						<ul>
+							<li><img src="images/28.png" alt=""><a href="#">Join Us on Facebook</a></li>
+							<li><img src="images/twitter.png" alt=""><a href="#">Follow Us on Twitter</a></li>
+							<li><img src="images/39.png" alt=""><a href="#">Share Us on Twitter</a></li>
+						</ul>
+					</div>
+				 </div>
+			   <div class="clear"></div>
+			 </div>
+			</div>
+		  </div>
+		<div class="copy_right">
+			<p>© All rights Reseverd |   <a href="http://w3layouts.com"> </a></p>
+		</div>
+</body>
+</html>
