@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kS5/6JpVcBy/fUNIJL45g+7nQjwSOLHN85scJhcTH7yf2vqg8uUu6MRXArZRHlaqNFoRIAmJeWgT0Hx5paIjKw==",
+  "dgSpecHash": "r66rIf4vj9W+TI3t9W8KKeGuEBFLrk9Yj5GkAk6/gfTU0NCm7bsZJzYVC6yQe+2Sy4XE4xGyeDPX5FXQe8QsJw==",
   "success": true,
   "projectFilePath": "C:\\C#\\repos\\Barbershop-Booking-System\\Barbershop-Booking-System.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mike\\.nuget\\packages\\mysqlconnector\\2.1.10\\mysqlconnector.2.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
